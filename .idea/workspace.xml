@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="249fa969-145a-4ed1-97f0-2b3fea67f7ba" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/election-monitoring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/authentication.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/flag-incident.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/forensic-detail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/incident-report.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/lga-collation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/national-audit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/national-collation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/national-wards-audit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/polling-unit-results.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/result-report.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/state-colation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/user-assigned.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/user-authorization.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/ward-collation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/ward-report.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/extensions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/audit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/location.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/result.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/ProtectedRoute.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/admin_dashboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/location_admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/location_public.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/party.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/polling_unit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/pu_results.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/public.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/ward.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/aggregation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/election-frontend/public/coat-of-arms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/election-frontend/public/ndc-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/election-frontend/public/ndc-logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/election-frontend/src/App.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/election-frontend/src/components/CreateUserForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/election-frontend/src/components/Layout.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/election-frontend/src/components/ReportModal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/election-frontend/src/components/Sidebar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/election-frontend/src/components/StatCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/election-frontend/src/components/UsersTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/election-frontend/src/components/WardReport.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/election-frontend/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/election-frontend/src/main.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/election-frontend/src/pages/AdminDashboard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/election-frontend/src/pages/AdminFlags.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/election-frontend/src/pages/AdminLocation.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/election-frontend/src/pages/Dashboard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/election-frontend/src/pages/Login.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/election-frontend/src/pages/NationalWardCommand.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/election-frontend/src/pages/PUDetail.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/election-frontend/src/pages/PublicDashboard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/election-frontend/src/pages/ReportIncident.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/election-frontend/src/pages/SubmitResult.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/election-frontend/src/pages/WardCollationReport.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/election-frontend/src/routes/ProtectedRoute.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/election-frontend/src/services/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/election-frontend/src/styles/admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/election-frontend/src/styles/createUser.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/election-frontend/src/styles/dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/election-frontend/src/styles/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/election-frontend/src/styles/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/election-frontend/src/styles/nationalCommand.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/election-frontend/src/styles/protectedRoute.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/election-frontend/src/styles/publicDashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/election-frontend/src/styles/sidebar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/election-frontend/src/styles/submit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/election-frontend/src/styles/wardReport.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/election-frontend/src/utils/formatRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/election-frontend/tailwind.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nigeria-wards.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nigeria_states_lgas.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seed_full_nigeria.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seed_locations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seed_pu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seed_wards.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seed_wards_clean.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="3DTzwDIyOom5rVUfBludt0jMDnl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
+    &quot;Python.config.executor&quot;: &quot;Run&quot;,
+    &quot;Python.create_admin.executor&quot;: &quot;Run&quot;,
+    &quot;Python.flash_shell.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run.executor&quot;: &quot;Run&quot;,
+    &quot;Python.seed.executor&quot;: &quot;Run&quot;,
+    &quot;Python.seed_wards_clean.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dell/PycharmProjects/election-monitoring/election-frontend/src/assets&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\PycharmProjects\election-monitoring\election-frontend\src\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\PycharmProjects\election-monitoring\Screenshots" />
+      <recent name="C:\Users\Dell\PycharmProjects\election-monitoring\.venv" />
+      <recent name="C:\Users\Dell\PycharmProjects\election-monitoring\static" />
+      <recent name="C:\Users\Dell\PycharmProjects\election-monitoring" />
+      <recent name="C:\Users\Dell\PycharmProjects\election-monitoring\election-frontend\src" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="249fa969-145a-4ed1-97f0-2b3fea67f7ba" name="Changes" comment="" />
+      <created>1778321097354</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1778321097354</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/models/result.py</url>
+          <line>121</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

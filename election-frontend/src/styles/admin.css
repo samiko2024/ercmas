@@ -1,0 +1,120 @@
+.header {
+  background: #0F3D2E;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+.card {
+  background: white;
+  padding: 18px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  margin-bottom: 20px;
+}
+.input-group {
+  margin-bottom: 15px;
+}
+
+.label {
+  font-size: 13px;
+  margin-bottom: 5px;
+  display: block;
+  color: #333;
+}
+
+.input, select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+.button {
+  width: 100%;
+  padding: 10px;
+  background: #0F3D2E;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.button:hover {
+  background: #145c43;
+}
+.table th {
+  text-align: left;
+  background: #0F3D2E;
+  color: white;
+  padding: 10px;
+  font-size: 13px;
+}
+
+.table td {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  font-size: 13px;
+}
+.role-badge {
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+/* Variants */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.table th, .table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.role-badge {
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.role-admin {
+  background: #fde68a;
+  color: #92400e;
+}
+
+.role-ward {
+  background: #bfdbfe;
+  color: #1e3a8a;
+}
+
+.role-agent {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.phone-text {
+  font-family: monospace;
+  font-size: 13px;
+  color: #0b2f24;
+  background: #f1f5f9;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.location-node-badge {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 500;
+  color: #1e293b;
+  background: #e2e8f0;
+  padding: 4px 8px;
+  border-radius: 6px;
+  white-space: nowrap;
+}

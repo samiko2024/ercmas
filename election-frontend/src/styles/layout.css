@@ -1,0 +1,171 @@
+/* Unified Core Fixed Viewport Matrix */
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: #f6f8f7; /* Background canvas color visible inside layout gaps */
+}
+
+/* --- Fixed Left Sidebar Anchor --- */
+.sidebar-wrapper {
+  width: 260px;
+  height: 100vh;
+  flex-shrink: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+/* --- Dynamic Right Content Pane --- */
+.main-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin-left: 260px; /* Offset workspace to avoid sitting under fixed sidebar */
+  position: relative;
+  overflow: hidden;
+}
+
+/* --- Desktop Premium Navigation Header --- */
+.dashboard-header {
+  position: fixed;
+  top: 0;
+  /* FIX: Pushed right by 272px instead of 260px to leave a crisp 12px separation space */
+  left: 272px;
+  right: 0;
+  height: 76px;
+  background: #0B2F24;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  border-bottom: 2px solid #C5A880;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  z-index: 900;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.ndc {
+  width: 54px;
+  height: 36px;
+  object-fit: contain;
+}
+
+.coat {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.dashboard-header h2 {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin: 0;
+  text-align: center;
+  flex: 1;
+  padding: 0 20px;
+}
+
+.header-right {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  background: rgba(197, 168, 128, 0.15);
+  color: #C5A880;
+  padding: 6px 12px;
+  border-radius: 4px;
+  border: 1px solid rgba(197, 168, 128, 0.25);
+  white-space: nowrap;
+}
+
+/* --- Independent Child Workspace Canvas Viewport --- */
+.page-content {
+  flex: 1;
+  overflow-y: auto;
+  /* FIX: Added left padding adjustment to balance out the 12px header offset gap spacing */
+  margin-top: 76px;
+  padding: 32px 40px 32px 12px;
+  box-sizing: border-box;
+}
+
+/* Hide Mobile Topbars on Wide Screen Terminals */
+.mobile-topbar {
+  display: none;
+}
+
+/* --- Full Fluid Mobile Viewport Adaptation Query Matrix --- */
+@media (max-width: 920px) {
+  .sidebar-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 2000;
+    transform: translateX(-100%);
+    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .sidebar-wrapper.show {
+    transform: translateX(0);
+  }
+
+  .main-area {
+    width: 100vw;
+    margin-left: 0;
+  }
+
+  .dashboard-header {
+    display: none;
+  }
+
+  .mobile-topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    background: #0B2F24;
+    color: white;
+    padding: 0 16px;
+    align-items: center;
+    gap: 16px;
+    border-bottom: 2px solid #C5A880;
+    z-index: 900;
+  }
+
+  .mobile-title {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+
+  .menu-btn {
+    font-size: 22px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .page-content {
+    margin-top: 60px;
+    padding: 24px 16px;
+  }
+}
