@@ -210,7 +210,7 @@ MIT License
 ![Forensic investigation](Screenshots/forensic-detail.png)
 
 ### 👥 Users Assigned
-![Users Assigned](Screenshots/forensic-detail.png)
+![Users Assigned](Screenshots/-assigned.png)
 
 ### 📤 Ward Collation Audit Report
 ![Ward Agent report](Screenshots/national-wards-audit.png)
